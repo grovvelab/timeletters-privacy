@@ -8,7 +8,7 @@ Since GitHub CLI is not available, follow these steps:
 
 ### Step 1: Create Repository on GitHub
 
-1. Go to: **https://github.com/aatostudios** (or your organization)
+1. Go to: **https://github.com/thegrovelabs** (or your organization)
 2. Click the **"+"** button in the top right → **"New repository"**
 3. Repository settings:
    - **Name**: `timeletters-privacy`
@@ -25,7 +25,7 @@ After creating the repository, GitHub will show you commands. Run these:
 cd /Users/henryye/Dev/timeletters-privacy
 
 # Add the GitHub remote
-git remote add origin git@github.com:aatostudios/timeletters-privacy.git
+git remote add origin git@github.com:thegrovelabs/timeletters-privacy.git
 
 # Push to GitHub
 git branch -M main
@@ -36,7 +36,7 @@ Or copy the exact commands GitHub provides you!
 
 ### Step 3: Enable GitHub Pages
 
-1. Go to your repository: **https://github.com/aatostudios/timeletters-privacy**
+1. Go to your repository: **https://github.com/thegrovelabs/timeletters-privacy**
 2. Click **Settings** tab
 3. Scroll to **Pages** section (left sidebar)
 4. Under **Source**:
@@ -48,7 +48,7 @@ Or copy the exact commands GitHub provides you!
 ### Step 4: Verify
 
 Visit your privacy policy at:
-**https://aatostudios.github.io/timeletters-privacy/**
+**https://thegrovelabs.github.io/timeletters-privacy/**
 
 You should see your styled privacy policy page.
 
@@ -56,7 +56,7 @@ You should see your styled privacy policy page.
 
 The app already points to the new URL! Just verify the URL in Settings.tsx is:
 ```
-https://aatostudios.github.io/timeletters-privacy
+https://thegrovelabs.github.io/timeletters-privacy
 ```
 
 If it needs updating, change line 401 in `src/components/Settings.tsx`
@@ -64,8 +64,8 @@ If it needs updating, change line 401 in `src/components/Settings.tsx`
 ## Done! ✅
 
 Your privacy policy is now hosted in its own dedicated repository at:
-- **Repository**: https://github.com/aatostudios/timeletters-privacy
-- **Public URL**: https://aatostudios.github.io/timeletters-privacy/
+- **Repository**: https://github.com/thegrovelabs/timeletters-privacy
+- **Public URL**: https://thegrovelabs.github.io/timeletters-privacy/
 
 ## Future Updates
 
